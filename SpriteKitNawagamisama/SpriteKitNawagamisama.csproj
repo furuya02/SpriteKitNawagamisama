@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectGuid>{E1756941-5B14-4D81-839B-34686D3D44E3}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>SpriteKitNawagamisama</RootNamespace>
+    <AssemblyName>SpriteKitNawagamisama</AssemblyName>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchFastDev>true</MtouchFastDev>
+    <MtouchUseSGen>true</MtouchUseSGen>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>i386</MtouchArch>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchUseSGen>true</MtouchUseSGen>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchUseSGen>true</MtouchUseSGen>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>i386</MtouchArch>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <DeviceSpecificBuild>true</DeviceSpecificBuild>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchFastDev>true</MtouchFastDev>
+    <MtouchUseSGen>true</MtouchUseSGen>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Image0.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Image0.imageset\image0.jpg" />
+    <ImageAsset Include="Assets.xcassets\Image1.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Image1.imageset\image1.jpg" />
+    <ImageAsset Include="Assets.xcassets\Image2.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Image3.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Image4.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Image5.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Image6.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Image7.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Image8.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Image9.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Image2.imageset\image2.jpg" />
+    <ImageAsset Include="Assets.xcassets\Image3.imageset\image3.jpg" />
+    <ImageAsset Include="Assets.xcassets\Image4.imageset\image4.jpg" />
+    <ImageAsset Include="Assets.xcassets\Image5.imageset\image5.jpg" />
+    <ImageAsset Include="Assets.xcassets\Image6.imageset\image6.jpg" />
+    <ImageAsset Include="Assets.xcassets\Image7.imageset\image7.jpg" />
+    <ImageAsset Include="Assets.xcassets\Image8.imageset\image8.jpg" />
+    <ImageAsset Include="Assets.xcassets\Image9.imageset\image9.jpg" />
+    <ImageAsset Include="Assets.xcassets\wrap.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\wrap.imageset\warp_320.png" />
+    <ImageAsset Include="Assets.xcassets\wing.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\wing.imageset\wing_320.png" />
+    <ImageAsset Include="Assets.xcassets\fight.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\fight.imageset\pipo-btleffect154.png" />
+    <ImageAsset Include="Assets.xcassets\fight2.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\fight3.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\fight2.imageset\fight2.png" />
+    <ImageAsset Include="Assets.xcassets\fight3.imageset\fight3.png" />
+    <ImageAsset Include="Assets.xcassets\Image0.imageset\image00.jpg" />
+    <ImageAsset Include="Assets.xcassets\Image1.imageset\image01.jpg" />
+    <ImageAsset Include="Assets.xcassets\Image2.imageset\image02.jpg" />
+    <ImageAsset Include="Assets.xcassets\Image3.imageset\image03.jpg" />
+    <ImageAsset Include="Assets.xcassets\Image4.imageset\image04.jpg" />
+    <ImageAsset Include="Assets.xcassets\Image5.imageset\image05.jpg" />
+    <ImageAsset Include="Assets.xcassets\Image6.imageset\image06.jpg" />
+    <ImageAsset Include="Assets.xcassets\Image7.imageset\image07.jpg" />
+    <ImageAsset Include="Assets.xcassets\Image8.imageset\image08.jpg" />
+    <ImageAsset Include="Assets.xcassets\Image9.imageset\image09.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="Assets.xcassets\Image0.imageset\" />
+    <Folder Include="Assets.xcassets\Image1.imageset\" />
+    <Folder Include="Assets.xcassets\Image2.imageset\" />
+    <Folder Include="Assets.xcassets\Image3.imageset\" />
+    <Folder Include="Assets.xcassets\Image4.imageset\" />
+    <Folder Include="Assets.xcassets\Image5.imageset\" />
+    <Folder Include="Assets.xcassets\Image6.imageset\" />
+    <Folder Include="Assets.xcassets\Image7.imageset\" />
+    <Folder Include="Assets.xcassets\Image8.imageset\" />
+    <Folder Include="Assets.xcassets\Image9.imageset\" />
+    <Folder Include="Assets.xcassets\wrap.imageset\" />
+    <Folder Include="Assets.xcassets\wing.imageset\" />
+    <Folder Include="Assets.xcassets\fight.imageset\" />
+    <Folder Include="Assets.xcassets\fight2.imageset\" />
+    <Folder Include="Assets.xcassets\fight3.imageset\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="GameScene.sks" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="LaunchScreen.storyboard" />
+    <InterfaceDefinition Include="Main.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="GameViewController.cs" />
+    <Compile Include="GameViewController.designer.cs">
+      <DependentUpon>GameViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameScene.cs" />
+    <Compile Include="AnimationNode.cs" />
+    <Compile Include="Kuma.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+</Project>

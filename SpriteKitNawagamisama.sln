@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpriteKitNawagamisama", "SpriteKitNawagamisama\SpriteKitNawagamisama.csproj", "{E1756941-5B14-4D81-839B-34686D3D44E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1756941-5B14-4D81-839B-34686D3D44E3}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{E1756941-5B14-4D81-839B-34686D3D44E3}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{E1756941-5B14-4D81-839B-34686D3D44E3}.Release|iPhone.ActiveCfg = Release|iPhone
+		{E1756941-5B14-4D81-839B-34686D3D44E3}.Release|iPhone.Build.0 = Release|iPhone
+		{E1756941-5B14-4D81-839B-34686D3D44E3}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{E1756941-5B14-4D81-839B-34686D3D44E3}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{E1756941-5B14-4D81-839B-34686D3D44E3}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{E1756941-5B14-4D81-839B-34686D3D44E3}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal

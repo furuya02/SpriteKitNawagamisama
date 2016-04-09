@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="SpriteKitNawagamisama/SpriteKitNawagamisama.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SpriteKitNawagamisama/GameScene.cs">
+    <Files>
+      <File FileName="SpriteKitNawagamisama/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="SpriteKitNawagamisama/GameScene.cs" Line="47" Column="53" />
+      <File FileName="SpriteKitNawagamisama/AnimationNode.cs" Line="48" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SpriteKitNawagamisama PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6DC6796C-E925-4D40-BC6F-41F7BA600321" />
+</Properties>
